@@ -222,6 +222,11 @@ h3 {
   flex-direction: row;
 }
 
+.social-icon i{
+  background-color: var(--black-2);
+  border: none;
+}
+
 .social-icon i:hover {
   background-color: var(--dark-cyan);
   color: var(--black);
@@ -470,24 +475,37 @@ h3 {
 }
 
 .btn{
+  
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  color: var(--dark-cyan);
+  font-family: "Open Sans", sans-serif;
+  margin: 100px auto;
+  font-weight: 600;
+  border: 1px solid var(--dark-cyan);
+  transition: .2s linear;
+  text-transform: uppercase;
+}
+
+.btn:hover{
   background: linear-gradient(
     90deg,
     rgba(0, 242, 152, 0.7),
     rgba(92, 237, 237, 0.7)
   );
-  width: 200px;
-  height: 50px;
-  text-decoration: none;
-  color: var(--white);
-  font-family: "Open Sans", sans-serif;
-  margin: 100px auto;
-  font-weight: 600;
+  color: var(--black);
   box-shadow: 0px -1px 18px var(--dark-green);
+  border: 1px solid transparent;
 }
 
-/* .btn:hover{
-  background: var(--white);
+.contact p{
   color: var(--dark-cyan);
-} */
-
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  margin-top: 50px;
+  border-top: 1px solid var(--dark-gray);
+}
 
