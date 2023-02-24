@@ -116,7 +116,7 @@ h4 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  font-size: 3vw;
+  font-size: 20px;
   font-family: "Open Sans", sans-serif;
   /* display: inline-block; */
 }
@@ -220,6 +220,7 @@ h3 {
 
 .social-icon {
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .social-icon i{
@@ -366,6 +367,9 @@ h3 {
 }
 
 @media (min-width: 768px) {
+  .h2{
+    font-size: 25px;
+  }
   .timeline:before {
     left: 50%;
   }
@@ -407,6 +411,9 @@ h3 {
 }
 
 @media (min-width: 992px) {
+  .h2{
+    font-size: 35px;
+  }
   .timeline > li {
     min-height: auto;
   }
@@ -437,6 +444,9 @@ h3 {
 }
 
 @media (min-width: 1200px) {
+  .h2{
+    font-size: 35px;
+  }
   .education h2 {
     font-size: 20px;
   }
